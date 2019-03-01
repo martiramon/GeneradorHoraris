@@ -1,14 +1,15 @@
-# Pràctica de PROP - 2018 - Scheduler
+# PrÃ ctica de PROP - 2018 - Scheduler
 
 ## Enunciat  
 
-Es tracta de construir un entorn per a la generació d’horaris de diverses unitats docents segons certes condicions establertes prèviament. El marc d’aplicació ha de ser el mes flexible possible. Podem  considerar  una  unitat  docent  (per  exemple  la  FIB)  que  ha d’organitzar  els  horaris corresponents a diversos plans d’estudis i diverses titulacions
+Es tracta de construir un entorn per a la generaciÃ³ dâ€™horaris de diverses unitats docents segons certes condicions establertes prÃ¨viament. El marc dâ€™aplicaciÃ³ ha de ser el mes flexible possible. Podem  considerar  una  unitat  docent  (per  exemple  la  FIB)  que  ha dâ€™organitzar  els  horaris corresponents a diversos plans dâ€™estudis i diverses titulacions
 
-Per  començar  s’establirà  un  escenari  fix,  on  es  definiran  les  condicions  relatives  al  període de classes,  aules  disponibles,  pla d’estudis  i  propietats  de  cada assignatura.  Aquest  escenari defineix implícitament unes restriccions concretes i a més a més  es  podrien  definir  d’altres  de forma explicita.  
+Per  comenÃ§ar  sâ€™establirÃ   un  escenari  fix,  on  es  definiran  les  condicions  relatives  al  perÃ­ode de classes,  aules  disponibles,  pla dâ€™estudis  i  propietats  de  cada assignatura.  Aquest  escenari defineix implÃ­citament unes restriccions concretes i a mÃ©s a mÃ©s  es  podrien  definir  dâ€™altres  de forma explicita.  
 
-Com a mínim s’han de contemplar el següents tipus de restricció: l’organització per nivells del pla  d’estudis (no  solapament  d’assignatures  del  mateix  nivell), correquisits  entre  assignatures, el número, tipus i duració de les sessions per a cada assignatura, el període lectiu i el número d’aules (i capacitat) necessàries per a cada assignatura (en funció del seus grups)
+Com a mÃ­nim sâ€™han de contemplar el segÃ¼ents tipus de restricciÃ³: lâ€™organitzaciÃ³ per nivells del pla  dâ€™estudis (no  solapament  dâ€™assignatures  del  mateix  nivell), correquisits  entre  assignatures, el nÃºmero, tipus i duraciÃ³ de les sessions per a cada assignatura, el perÃ­ode lectiu i el nÃºmero dâ€™aules (i capacitat) necessÃ ries per a cada assignatura (en funciÃ³ del seus grups)
 
 ## Membres del equip
 
-
-
+- [Marti Ramon](https://github.com/martiramon)
+- [Eloi Saus](https://github.com/)
+- [Andreu Gallofre](https://github.com/atsuky)
