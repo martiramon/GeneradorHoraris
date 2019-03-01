@@ -1,0 +1,15 @@
+Constructora 12 4 2
+Getters-Grup ----> Resultat esperat: Grup = 12
+Getters-Mati/Tarda ----> Resultat esperat: Grup de tarda
+Getters-Sessions ----> Resultat esperat: Sessions =
+Adds 45
+Adds 50
+Adds 45
+Getters-Sessions ----> Resultat esperat: Sessions = 45,50
+Delete 85 ----> Resultat esperat: Sessio no existeix
+Delete 45 ----> Resultat esperat: Sessio eliminada
+Getters-Sessions ----> Resultat esperat: Sessions = 50
+Delete 50 ----> Resultat esperat: Sessio eliminada
+Getters-Sessions ----> Resultat esperat: Sessions =
+Setters-Mati/Tarda 1
+Getters-Mati/Tarda ----> Resultat esperat: Grup de mati

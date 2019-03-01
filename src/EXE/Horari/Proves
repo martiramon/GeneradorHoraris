@@ -1,0 +1,33 @@
+Objecte de la prova: 
+	Classe Horari
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverHorari
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Tenim tres jocs de proves en aquesta clase, un ens permet veure com es fa la generació d'horaris. 
+	En una branca on l'execucció és correcte, la idea del test es provar amb un conjunt de variables prou gran per veure'n l'eficiencia
+	En un altre veiem una generació d'horari impossible on bàsicament el que fem es que les restriccions fallin.
+	Per tant no hi hagi cap opció possible amb la combinació donada d'aules, assignatures i sessions.
+	Ens retornarà que no és possible generar un horari amb les condicions donades.
+	Finalment una última on ens imprimeix un horari buit per comprovar la funció d'imprimir horari que hem creat.
+
+	Tot això es comprova automàticament amb els test de Junit, però hem generat un driver que permet provar-ho també de manera visual.
+
+Operativa:
+	Execcució amb java -jar DriverHorari.jar
+
+	Com que tota la operativa de crear les assignatures i totes les dependències necesaries a l'hora de crear l'horari. 
+	Altrament es faria molt pesada per casos grans, hi ha un menú amb les opcions descrites adalt. 
+	Quan es selecciona una de les opcions, es genera o no l'horari i s'imprimeix l'output per pantalla per a que es pugui revisar.
+
+	A més tenim una ultima opció que ens permet sortir del driver.

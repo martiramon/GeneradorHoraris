@@ -1,0 +1,32 @@
+Objecte de la prova: 
+	Classe Grup
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverGrup
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Amb la creador fem un nou grup amb un numero de grup i una capacitat.
+	comprovem que aquest valor estan inciliatizat mentre que grup-assignatura esta incialitzada pero sense valors dins.
+	Afegim dos valors a Grup Assignatura i un tercer que es el mateix que el primer introduit. Comprovem si els valors es repeteixen o no.
+	Eliminem un valor de Grup Assignatura que si existeixi i un que no, comprovem que s'ha eliminat el primer.
+	Afegim un nou conjunt de Grup Assignatura i comprovem si el canvi s'ha fet.
+	Finalment mirem si el canvi de veritat s'ha fet eliminat un valor de l'antic conjunt.
+
+
+Operativa:
+	Per executar el drive: java -jar DriverGrup.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters, Adds per afegir elements als vector que pogui 
+	tenir la classe i Delete per eliminar aquests elements.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

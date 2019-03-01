@@ -1,0 +1,33 @@
+Objecte de la prova: 
+	Classe Aula
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverAula
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Primer creem una aula amb una id i una capacitat amb la primera constructora.
+	Comprovem que s'ha creat i les dades s'han introduit correctament.
+	Afegim elements a Sessio, un conjunt sense parametres de inicialitzacio a la creadora i mirem
+	si s'ha afegit. 
+	Borrem una sessio que no existeix en el sistema i una que si i firem si efectiament s'ha borrat.
+	Amb un setters afegim un nou conjunt de sessions i canviem el tipus de aula amb un setter.
+	Ara utilitzem la segona creadora per sustituir les dades que tenim ara i crear una aula nova
+	sustituint l'antiga. 
+
+Operativa:
+	Per executar el drive: java -jar DriverAula.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters, Adds per afegir elements als vector que pogui 
+	tenir la classe i Delete per eliminar aquests elements.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

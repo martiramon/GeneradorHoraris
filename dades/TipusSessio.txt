@@ -1,0 +1,2 @@
+{"id":"LAB","tipusA":1,"hores":2,"assignatures":[]}
+{"id":"TEO","tipusA":0,"hores":3,"assignatures":[]}

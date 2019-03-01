@@ -1,0 +1,8 @@
+{"acronim":"FM","nom":"Fonaments Matematics","nivell":1,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"IC","nom":"Introduccio als computadors","nivell":1,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"F","nom":"Fisica","nivell":1,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"PRO1","nom":"Programaci� 1","nivell":1,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"PR02","nom":"Fonaments Matematics 2","nivell":2,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"EC","nom":"Introduccio als computadors 2","nivell":2,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"M1","nom":"Fisica 2","nivell":2,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}
+{"acronim":"M2","nom":"Programacio 2","nivell":2,"sessions":[],"grups":[],"tsessions":[1,0],"corequisit":[]}

@@ -1,0 +1,42 @@
+Objecte de la prova: 
+	Classe ConjuntSessio
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+	Classe Sessio
+
+Drivers: 
+	DriverConjuntSessio
+
+Stubs: 
+	StabSessio
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Amb el conjunt buit, comprovem que si un objecte amb ID existeix.
+	Introduim un nou objecte amb una i.
+	Introduim el mateix objecte i miriem si en retorna la mateix ID d'abans.
+	Introduim un nou objecte i seguidament tornem a introduir el primer per veure que no canvia la seva ID.
+	Eliminem dos objectes del conjunt, un que no existeix i un que si.
+	Fem Is_Object per comprobar que el objecte que si existia ha sigut eliminat.
+	Introduim un nou objecte per veure que els ID son unics i no es poden repetir.
+	Fem Get_Object del valor que encara esta al sistema, del valor que hem eliminat i un valor no existen.
+	Fem Get_ID per veure que cap del objectes que hem introduit esta en el sistema
+	Introduim un dels identificadors de Get_ID i comprovem que ara ens torna un ID amb Get_ID
+	Reiniciem el conjunt i veiem que esta buit amb Get_ID i Get_Object
+	
+
+Operativa:
+	Per executar el drive: java -jar DriverSessio.jar
+	Les opcions principals es divideixen en:
+		New ID: Proporciona un nou ID per un objecte del conjunt.
+		Get ID: Donat un conjunt, retorna el seu ID dins del conjunt
+		Is Object: Donat un ID,retorna si l'objecte pertany al conjunt o no.
+		Get Object: Donat un ID, retorna l'objecte si pertany al conjunt.
+		Delete Object: Donat un ID, elimina l'objecte del conjunt si hi es.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

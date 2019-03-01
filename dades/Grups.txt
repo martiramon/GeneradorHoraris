@@ -1,0 +1,7 @@
+{"num":10,"capacitat":25,"grupsassig":[]}
+{"num":20,"capacitat":25,"grupsassig":[]}
+{"num":30,"capacitat":25,"grupsassig":[]}
+{"num":40,"capacitat":25,"grupsassig":[]}
+{"num":50,"capacitat":25,"grupsassig":[]}
+{"num":60,"capacitat":25,"grupsassig":[]}
+{"num":70,"capacitat":25,"grupsassig":[]}

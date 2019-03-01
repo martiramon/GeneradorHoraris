@@ -1,0 +1,32 @@
+Objecte de la prova: 
+	Classe GrupAssig
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverGrupAssig
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Creem un nou objecte amb un numero de grup, un numero d'assignatura i si es mati o tarda.
+	comprovem que els valors s'han introduit i tambe que sessions es un conjunt inicialitzat buit.
+	Afegim tres valors a sessions, dos repetis i un unic. 
+	comprovem que els valors no apareixen repetits.
+	Eliminim de sessions dos valors, un que si existeix i l'altre que no i comprovem que s'han borrat.
+	Eliminim tots els valors de sessions i mirem que el conjunt queda buit i podem afegir mes elements despres.
+	Canviem el valor de mati o tarda amb el setters i comprovem que el canvi s'ha fet correctament.
+
+Operativa:
+	Per executar el drive: java -jar DriverGrupAssig.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters, Adds per afegir elements als vector que pogui 
+	tenir la classe i Delete per eliminar aquests elements.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

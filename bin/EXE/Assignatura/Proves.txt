@@ -1,0 +1,37 @@
+Objecte de la prova: 
+	Classe Assignatura
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverAssignatura
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	El primer joc de proves comprovem la primera constructora amb un acronim, un nom, un nivell i un conjunt de sessions buit.
+	Comprovem si els valor s'ha posat correctament i veure que no hi ha cap valor en null.
+	Afegim dos sessions i mirem si efectivament s'han afegit. Provem de eliminar una sessio inexistent i una existent.
+	Amb un setter canviem el valor de sessions i mirem si s'ha actualitzat.
+	(Nomes fem la comprovacio en Sessions ja que la implemtenacio a nivell de codi es la mateixa per els altres atributs que son conjunts)
+
+	En el segon joc de proves comprovem la segona constrcutora amb un acronim, un nom, un nivell, un conjunt de tipus sessions no buit i un conjunt sessions buit.
+	Comprovem si els valor s'ha afegit correctament i veure que no hi ha cap valor en null.
+	Ara afegim en una atribut que no hem inicialitzat amb parametres a la constructor dos elements i comprovem si funcionen.
+	Afegim el mateix parametre de abans per veure si el programa duplia la dada o no. 
+	Borrem el valor de abans i comprovem si el conjunt a quedat buit. 
+	Amb un Setters afegim un conjunt buit a Corequisit i comprovem si s'ha substiuit el valor antic.
+
+Operativa:
+	Per executar el drive: java -jar DriverAssignatura.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters, Adds per afegir elements als vector que pogui 
+	tenir la classe i Delete per eliminar aquests elements.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

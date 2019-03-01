@@ -1,0 +1,31 @@
+Objecte de la prova: 
+	Classe PlaEstudis
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverPlaEstudis
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Creem un pla d'estudis amb un nom i un conjunt d'assignatures, comprovem que els valors s'han inicialitzat correctament.
+	Afegim noves assignatures, alguna que es repeteixi i comprovem que el sistema no las a duplicat.
+	Eliminem assignatures, i intentem eliminar una que no existeixi.
+	Canviem el vector de assignatures per un de nou amb el Setter i comprovem el resultat.
+	
+
+
+Operativa:
+	Per executar el drive: java -jar DriverPlaEstudis.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters, Adds per afegir elements als vector que pogui 
+	tenir la classe i Delete per eliminar aquests elements.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

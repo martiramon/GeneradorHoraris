@@ -1,0 +1,29 @@
+Constructora1 PROP Programacio 5 -1
+Getters-Acronim ----> Resultat esperat: Acronim = PROP
+Getters-Tipus Sessio ----> Resultat esperat: Tipus Sessio = 
+Getters-Sessions ----> Resultat esperat: Sessions = 
+Getters-Grup ----> Resultat esperat: Grups = 
+Getters-Corequisit ----> Resultat esperat: Corequisit = 
+Adds-Sessio: 45 
+Adds-Sessio: 78
+Getters-Sessio ----> Resultat esperat: Sessions = 45,78
+Delete-Sessio: 85 ----> Resultat esperat: La sessio no existeix
+Delete-Sessio: 45 ----> Resultat esperat: Sessio esborrada
+Getters-Sessio ----> Resultat esperat: Sessions = 78
+Setters-Sessio 85 45 110 -1
+Getters-Sessio ----> Resultat esperat: Sessions = 85,45,110
+
+
+Constructora2 PROP Programacio 5 45 78 -1 -1
+Getters-Nom ----> Resultat esperat: Nom = Programació
+Getters-Tipus Sessio ----> Resultat esperat = 45,78
+Getters-Sessions ----> Resultat esperat =
+Adds-Corequisit 78
+Getters-Corequisit ----> Resultat esperat = 78
+Adds-Corequisit 78
+Getters-Corequisit ----> Resultat esperat = 78
+Delete-Corequisit 78 ----> Resultat esperat = Corequisit esborrat
+Getters-Corequisist ----> Resultat esperat = 
+Set-Tipus Sessio -1
+Getters-Tipus Sessio ----> Resultat esperat = 
+

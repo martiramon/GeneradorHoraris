@@ -1,0 +1,12 @@
+Creadora LAB 45 4
+Getters-ID ----> Resultat esperat: ID = LAB
+Getters-Assignatura ----> Resultat esperat: Assignatures =
+Adds 20
+Adds 45
+Adds 20
+Getters-Assignatura ----> Resultat esperat: Assignatures = 20,45
+Delete 20
+Delete 85
+Delete 20
+Setters-Assignatura 20 56 89 -1
+Getters-Assignatura ----> Resultat esperat: Assignatures = 20,56,89

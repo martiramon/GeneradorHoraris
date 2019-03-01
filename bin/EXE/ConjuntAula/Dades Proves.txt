@@ -1,0 +1,34 @@
+Is_Object 45 ----> Resultat esperat: No es objecte dins del conjunt
+Delete_Object 45
+New ID 2 ----> Resultat esperat: El ID de la nova Assignatura es 0
+New ID 2 ----> Resultat esperat: El ID de la nova Assignatura es 0
+New ID 45 ----> Resultat esperat: El ID de la nova Assignatura es 1
+New ID 2 ----> Resultat esperat: El ID de la nova Assignatura es 0
+Delete_Object 2
+Delete_Object 1
+Is_Object 1 ----> Resultat esperat: No es un objecte de dins el conjunt
+Is_Object 0 ----> Resultat esperat: Es objecte de dins el conjunt
+New ID 70 ----> Resultat esperat: EL ID de la nova Assignatura es 2
+Get_Object 0 ----> Resultat esperat: Retorna per pantalla l'objecte
+Get_Object 1 ----> Resultat esperat: No es un objecte de dins el conjunt
+Get_Object 80 ----> Resultat esperat: No es un objecte de dins el conjunt
+Get_ID ----> Resultat esperat: Cap del objectes te identificador
+New_ID 50
+Get_ID ----> Resultat esperat: El identificador 50 te ID 3
+Reiniciar conjunt
+Get_ID ----> Resultat esperat: Cap del objectes te identificador
+Get_Object 0 ----> Resultat esperat: No es un objecte de dins el conjunt
+Size ----> Resultat esperat: 0
+New_ID 2 ----> Resultat esperat: El ID de la nova Assignatura es 0
+New_ID 3 ----> Resultat esperat: El ID de la nova Assignatura es 1
+New_ID 7 ----> Resultat esperat: El ID de la nova Assignatura es 2
+New_ID 80 ----> ----> Resultat esperat: El ID de la nova Assignatura es 3
+Find_Capacitat 30 ----> Resultat esperat: 1,2,3
+Find_Capacitat 800 ----> Resultat esperat: 3
+Find_Capacitat 1000 ----> Resultat esperat: 
+Delete_Object 2
+Find_Capacitat 30 ----> Resultat esperat: 1,3
+New_ID 50
+Find_TipusAula 50 ----> Resultat esperat: 4
+Delete_Object 4
+Find_TipusAula 50 ----> Resultat esperat:  

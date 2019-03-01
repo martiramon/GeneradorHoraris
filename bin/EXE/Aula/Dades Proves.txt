@@ -1,0 +1,20 @@
+Constructora1 A5102 20 -1
+Getters-ID ----> Resultat esperat: Id = A5102
+Getters-Tipus ----> Resultat esperat: L'aula no te tipus assignat 
+Getters-Sessions ----> Resultat esperat: Sessions = 
+Adds-Sessio: 45 
+Adds-Sessio: 78
+Getters-Sessio ----> Resultat esperat: Sessions = 45,78
+Delete-Sessio: 85 ----> Resultat esperat: La sessio no existeix
+Delete-Sessio: 45 ----> Resultat esperat: Sessio esborrada
+Getters-Sessio ----> Resultat esperat: Sessions = 78
+Setters-Sessio 85 45 110 -1
+Getters-Sessio ----> Resultat esperat: Sessions = 85,45,110
+Setters-Tipus 48
+Getters-Tipus ----> Resultat esperat: Tipus = 48
+Setters-Tipus 85
+Getters-Tipus ----> Resultat esperat: Tipus = 85
+Constructora2 A5103 30 45
+Getters-ID ----> Resultat esperat: Id = A5102
+Getters-Tipus  ----> Resultat esperat:  45
+

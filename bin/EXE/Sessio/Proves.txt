@@ -1,0 +1,26 @@
+Objecte de la prova: 
+	Classe Sessio
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverSessio
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Creem una sessio amb un id, un numero d'aula, un numero de grup i un tipus de sessio, comprovem que els valors s'han inicialitzat.
+	Amb un setter sustituim el antic valor tipus sessio per un de nou i comprovem que el valor ha canviat.
+	
+Operativa:
+	Per executar el drive: java -jar DriverSessio.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

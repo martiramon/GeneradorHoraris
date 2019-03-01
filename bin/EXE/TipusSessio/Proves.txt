@@ -1,0 +1,30 @@
+Objecte de la prova: 
+	Classe TipusSessio
+
+Altres elements integras a la prova: 
+	Classe inout proporcionada
+
+Drivers: 
+	DriverTipusSessio
+
+Stubs: 
+	Cap
+
+Fitxers de dades necessaris: 
+	Cap
+
+Valors estudiats:
+	Creem un Tipus Sessio amb un id, un tipus aula i el numero d'hores.
+	Comprovem que els valors s'han inicialitzat correctament, i el conjunt Assignatures esta inciliaitzat pero buit.
+	Afegim tres assignatures, una de ellas repetida. Comprovem que el sistema no ha duplicat l'informacio.
+	Eliminem dues assignatures, una de ella existen i l'altre no. Comprovem que els canvis s'han fet correctament.
+	Canviem el contigut del conjunt de assignatures amb els setters i comprovem que el canvi s'ha fet correctament.
+
+Operativa:
+	Per executar el drive: java -jar DriverTipusSessio.jar
+	Les opcions principals es divideixen en Constructors, Getters, Setters, Adds per afegir elements als vector que pogui 
+	tenir la classe i Delete per eliminar aquests elements.
+	Per moures per les opciones es va servir un valor númeric que es mostra per pantalla acompanyat de quina opcio correspont.
+	La ultima opcio sempre correspon a sortir del drive o sortir de la opcio actual. 
+	Cada vegada que s'ha de introduir una dada es mostra en quin format ha de ser, i en cas de una sequencia de dades s'ha
+	d'acabar la sequencia. 

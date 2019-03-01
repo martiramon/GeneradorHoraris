@@ -1,0 +1,13 @@
+Constructra Lab
+Getters-ID ----> Resultat esperat: ID = Lab
+Getters-Aules ----> Resultat esperat: Aules =
+Adds 45
+Adds 50
+Adds 45
+Getters-Aules ----> Resultat esperat: Aules = 45,50
+Delete 45
+Delete 85
+Delete 45
+Getters-Aules ----> Resultat esperat: Aules = 50
+Setters-Aules 20 73 -1
+Getters-Aules ----> Resultat esperat: Aules = 20,73

@@ -1,0 +1,5 @@
+Constructora PROP_Teoria 45 11 52
+Getters-ID ----> Resultat esperat: ID = PROP_Teoria
+Getters-Aula ----> Resultat esperat: Aula = 45
+Setters-Tipus_Sessio 80
+Getters-Tipus_Sessio -----> Resultat esperat: Tipus_Sessio = 80

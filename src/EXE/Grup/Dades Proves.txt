@@ -1,0 +1,14 @@
+Constructora1 11 20
+Getters-numero ----> Resultat esperat: numero = 11
+Getters-Capacitat ----> Resultat esperat: capacitat = 20
+Getters-Grup_Assignatura ----> Resultat esperat: Grup-Assignatura = 
+Adds 45
+Adds 50
+Adds 45
+Getters-Grup_Assignatura ----> Resultat esperat: Grup-Assignatura = 45,50
+Delete 45 ----> Resultat esperat: Grup-Assignatura eliminat
+Delete 80 ----> Resultat esperat: Grup-Assignatura no existeix
+Getters-Grup_Assignatura ----> Resultat esperat: Grup-Assignatura = 50
+Setters-Grup-Assignatura 45 85 -1
+Getters-Grup_Assignatura ----> Resultat esperat: Grup-Assignatura 45,85
+Delete 50 ----> Resultat esperat: Grup-Assignatura no existeix

@@ -1,0 +1,14 @@
+Constructora FIB 45 80 -1
+Getters-Nom ----> Resultat esperat: Nom = FIB
+Getters-Assignatures --> Resultat esperat: Assignatures = 45,80
+Adds 78
+Adds 85
+Adds 78
+Adds 45
+Getters-Assignatures ----> Resultat esperat: Assignatures = 45,80,78,85
+Delete 80 ----> Resultat esperat: Assignatura eliminada
+Delete 85 ----> Resultat esperat: Assignatura eliminada
+Delete 20 ----> Resultat esperat: Assignatura no existeix
+Getters-Assignautres ----> Resultat esperat: Assignatures = 45,78
+Setters-Assignatures 999 400  -1
+Getters-Assignautres ----> Resultat esperat: Assignatures = 999,400
