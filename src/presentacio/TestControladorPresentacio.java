@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import com.google.gson.Gson;
 
-import FONTS.agallofre.CtrlDomini;
+import domini.CtrlDomini;
 
 public class TestControladorPresentacio {
 

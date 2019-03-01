@@ -7,8 +7,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import FONTS.agallofre.CtrlDomini;
-import FONTS.agallofre.HorariExceptions;
+import domini.CtrlDomini;
+import domini.HorariExceptions;
 import javafx.util.Pair;
 
 public class ControladorPresentacio {

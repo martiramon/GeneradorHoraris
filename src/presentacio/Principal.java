@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 import java.awt.BorderLayout;
 import javax.swing.SwingConstants;
 
-import FONTS.esaus.ConjuntGrupAssig;
+import domini.ConjuntGrupAssig;
 
 import java.awt.Font;
 import javax.swing.JButton;
@@ -52,7 +52,7 @@ public class Principal {
 		lblScheduleGenerator.setHorizontalAlignment(SwingConstants.CENTER);
 		frame.getContentPane().add(lblScheduleGenerator);
 		
-		JButton btnNewButton = new JButton("Gestió Assignatures");
+		JButton btnNewButton = new JButton("Gestiï¿½ Assignatures");
 		btnNewButton.setBounds(26, 86, 182, 43);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -137,8 +137,8 @@ public class Principal {
 	    @Override
 	    public void windowClosing(WindowEvent e) {
 	        int confirm = JOptionPane.showOptionDialog(
-	             null, "Estàs segur que vols tancar l'aplicació?", 
-	             "Confirmació de tancament", JOptionPane.YES_NO_OPTION, 
+	             null, "Estï¿½s segur que vols tancar l'aplicaciï¿½?", 
+	             "Confirmaciï¿½ de tancament", JOptionPane.YES_NO_OPTION, 
 	             JOptionPane.QUESTION_MESSAGE, null, null, null);
 	        try {
 				CtrlP.guardarDades();

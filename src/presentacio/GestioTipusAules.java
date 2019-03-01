@@ -13,7 +13,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import FONTS.esaus.ConjuntGrupAssig;
+import domini.ConjuntGrupAssig;
 
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
@@ -175,8 +175,8 @@ public class GestioTipusAules extends JFrame {
 	    @Override
 	    public void windowClosing(WindowEvent e) {
 	        int confirm = JOptionPane.showOptionDialog(
-	             null, "Estàs segur que vols tancar l'aplicació?", 
-	             "Confirmació de tancament", JOptionPane.YES_NO_OPTION, 
+	             null, "Estï¿½s segur que vols tancar l'aplicaciï¿½?", 
+	             "Confirmaciï¿½ de tancament", JOptionPane.YES_NO_OPTION, 
 	             JOptionPane.QUESTION_MESSAGE, null, null, null);
 	        try {
 				CtrlP.guardarDades();

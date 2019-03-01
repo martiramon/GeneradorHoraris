@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 
-import FONTS.esaus.GrupAssig;
+import domini.GrupAssig;
 import javafx.util.Pair;
 
 import javax.swing.ButtonGroup;

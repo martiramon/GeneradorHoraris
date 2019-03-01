@@ -7,7 +7,7 @@ import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
-import FONTS.agallofre.HorariExceptions;
+import domini.HorariExceptions;
 import javafx.util.Pair;
 
 import javax.swing.JButton;
@@ -429,8 +429,8 @@ public class Horari extends JFrame {
 	    @Override
 	    public void windowClosing(WindowEvent e) {
 	        int confirm = JOptionPane.showOptionDialog(
-	             null, "Estàs segur que vols tancar l'aplicació?", 
-	             "Confirmació de tancament", JOptionPane.YES_NO_OPTION, 
+	             null, "Estï¿½s segur que vols tancar l'aplicaciï¿½?", 
+	             "Confirmaciï¿½ de tancament", JOptionPane.YES_NO_OPTION, 
 	             JOptionPane.QUESTION_MESSAGE, null, null, null);
 	        try {
 				CtrlP.guardarDades();
